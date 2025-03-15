@@ -1,0 +1,11 @@
+{
+    "user1@example.com": {
+        "password": "$2b$12$e0NRu09wzgibXbPxkhxsuOEEHiWQhAKjQXG3B3GpG.4UX0PZ/fN2K" 
+    },
+    "user2@example.com": {
+        "password": "$2b$12$D7uvTz5Y2OrZhtQZq1oiu.Nwz/Kag9c1NqgL9Qb1B/NdGmAFc0KmO"
+    },
+    "user3@example.com": {
+        "password": "$2b$12$4d9lThLzOwX1sHp0kXDiP.wPUeVxdMG5V2X1v1LrHYcFg5kGNh4cm"
+    }
+}
