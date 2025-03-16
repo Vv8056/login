@@ -1,9 +1,7 @@
-{
-    "users": [
-        {"email": "user1@example.com", "password": "password123"},
-        {"email": "user2@example.com", "password": "mypassword"},
-        {"email": "user3@example.com", "password": "securepass"},
-        {"email": "user4@example.com", "password": "test1234"},
-        {"email": "user5@example.com", "password": "flaskrocks"}
-    ]
-}
+[
+    {"email": "user1@example.com", "password": "password123"},
+    {"email": "user2@example.com", "password": "securepass"},
+    {"email": "user3@example.com", "password": "letmein"},
+    {"email": "user4@example.com", "password": "mypassword"},
+    {"email": "user5@example.com", "password": "admin123"}
+]
