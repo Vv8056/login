@@ -10,7 +10,7 @@ def load_users():
     with open("users.json", "r") as file:
         return json.load(file)
 
-@app.route('/login', methods=['GET'])
+@app.route('/login', methods=['POST'])
 def login():
     data = request.json
     email = data.get('email')
