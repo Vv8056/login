@@ -1,7 +1,10 @@
 from flask import Flask, request, jsonify
 import json
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app)  # Allow all origins (Consider restricting this in production)
 
 def load_users():
     with open("users.json", "r") as file:
